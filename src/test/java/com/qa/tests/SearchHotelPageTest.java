@@ -25,7 +25,7 @@ public class SearchHotelPageTest extends TestBase {
 		initialization();
 		loginPage = new LoginPage();
 		searchHotelPage = loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
-		System.out.println("BeforeMethod");
+		
 		
 
 	}
